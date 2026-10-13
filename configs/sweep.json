@@ -1,0 +1,9 @@
+[
+  {"name": "logreg-C0.1", "family": "logreg", "params": {"C": 0.1}},
+  {"name": "logreg-C1", "family": "logreg", "params": {"C": 1.0}},
+  {"name": "logreg-C1-balanced", "family": "logreg", "params": {"C": 1.0, "class_weight": "balanced"}},
+  {"name": "rf-depth8", "family": "rf", "params": {"n_estimators": 150, "max_depth": 8}},
+  {"name": "rf-depth16-leaf10", "family": "rf", "params": {"n_estimators": 150, "max_depth": 16, "min_samples_leaf": 10}},
+  {"name": "hgb-es-lr0.05", "family": "hgb", "params": {"early_stopping": true, "scoring": "roc_auc", "validation_fraction": 0.2, "n_iter_no_change": 15, "learning_rate": 0.05, "max_iter": 300}},
+  {"name": "hgb-es-lr0.2", "family": "hgb", "params": {"early_stopping": true, "scoring": "roc_auc", "validation_fraction": 0.2, "n_iter_no_change": 15, "learning_rate": 0.2, "max_iter": 300}}
+]

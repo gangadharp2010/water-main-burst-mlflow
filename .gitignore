@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+artifacts/
+
+# The tracking store. Runs belong in the store, not in Git.
+mlflow.db
+mlruns/
